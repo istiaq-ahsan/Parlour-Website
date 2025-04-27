@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "name": "Nash Patrik",
+      "position": "CEO, Manpol",
+      "image": "/images/nash-patrik.jpg",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus commodo ipsum duis laoreet maecenas. Feugiat.",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "name": "Miriam Barron",
+      "position": "CEO, Manpol",
+      "image": "/images/miriam-barron.jpg",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus commodo ipsum duis laoreet maecenas. Feugiat.",
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "name": "Bria Malone",
+      "position": "CEO, Manpol",
+      "image": "/images/bria-malone.jpg",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus commodo ipsum duis laoreet maecenas. Feugiat.",
+      "rating": 5
+    },
+    {
+      "id": 4,
+      "name": "John Doe",
+      "position": "Marketing Manager, FlowMedia",
+      "image": "/images/john-doe.jpg",
+      "review": "Amazing service! Highly recommended. Very professional and attentive to details.",
+      "rating": 4
+    },
+    {
+      "id": 5,
+      "name": "Emma Watson",
+      "position": "Product Designer, CreativesHub",
+      "image": "/images/emma-watson.jpg",
+      "review": "Loved the experience! Great team and awesome results. Will definitely come back.",
+      "rating": 5
+    }
+]
