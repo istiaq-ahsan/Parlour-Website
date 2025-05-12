@@ -57,7 +57,7 @@ const Navbar = () => {
             <NavLink to="/dashboard" className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" href="#">
               Dashboard
             </NavLink>
-            <NavLink>
+            <NavLink to="/login">
             <button className="btn bg-red-500 text-white btn-md">Login</button>
             </NavLink>
           </div>

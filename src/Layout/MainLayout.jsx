@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <div className='bg-pink-50'>
+            <div className=''>
             <div className='md:mt-[72px]'>
                 <Outlet></Outlet>
             </div>
