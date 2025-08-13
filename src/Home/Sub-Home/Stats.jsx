@@ -1,3 +1,4 @@
+import service_img from "../../assets/images/service.png";
 
 const Stats = () => {
     return (
@@ -8,7 +9,7 @@ const Stats = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="hidden md:block">
             <div className="bg-pink-200 rounded-lg h-96 w-full flex items-center justify-center">
-              <span className="text-gray-500">Parlour Service Image</span>
+              <img src={service_img} alt="" />
             </div>
           </div>
 

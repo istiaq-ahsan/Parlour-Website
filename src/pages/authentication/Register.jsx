@@ -2,28 +2,22 @@ import React from 'react';
 
 const Register = () => {
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section className="bg-white">
       <div className="container flex items-center justify-center min-h-screen px-6 mx-auto">
         <form className="w-full max-w-md">
-          <div className="flex justify-center mx-auto">
-            <img
-              className="w-auto h-7 sm:h-8"
-              src="https://merakiui.com/images/logo.svg"
-              alt="Logo"
-            />
-          </div>
+          
 
           <div className="flex items-center justify-center mt-6">
             <a
               href="/login"
-              className="w-1/3 pb-4 font-medium text-center text-gray-500 capitalize border-b dark:border-gray-400 dark:text-gray-300"
+              className="w-1/3 pb-4 font-medium text-center text-gray-500 capitalize border-b"
             >
               sign in
             </a>
 
             <a
               href="/register"
-              className="w-1/3 pb-4 font-medium text-center text-gray-800 capitalize border-b-2 border-blue-500 dark:border-blue-400 dark:text-white"
+              className="w-1/3 pb-4 font-medium text-center text-gray-800 capitalize border-b-2 border-blue-500"
             >
               sign up
             </a>
@@ -32,7 +26,7 @@ const Register = () => {
           <div className="relative flex items-center mt-8">
             <span className="absolute">
               <svg
-                className="w-6 h-6 mx-3 text-gray-300 dark:text-gray-500"
+                className="w-6 h-6 mx-3 text-gray-300"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -49,16 +43,16 @@ const Register = () => {
             <input
               type="text"
               placeholder="Username"
-              className="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring focus:outline-none focus:ring-blue-300 focus:ring-opacity-40"
+              className="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11 focus:border-blue-400 focus:ring focus:outline-none focus:ring-blue-300 focus:ring-opacity-40"
             />
           </div>
 
           <label
             htmlFor="dropzone-file"
-            className="flex items-center px-3 py-3 mx-auto mt-6 text-center bg-white border-2 border-dashed rounded-lg cursor-pointer dark:border-gray-600 dark:bg-gray-900"
+            className="flex items-center px-3 py-3 mx-auto mt-6 text-center bg-white border-2 border-dashed rounded-lg cursor-pointer"
           >
             <svg
-              className="w-6 h-6 text-gray-300 dark:text-gray-500"
+              className="w-6 h-6 text-gray-300"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -77,7 +71,7 @@ const Register = () => {
           <div className="relative flex items-center mt-6">
             <span className="absolute">
               <svg
-                className="w-6 h-6 mx-3 text-gray-300 dark:text-gray-500"
+                className="w-6 h-6 mx-3 text-gray-300"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -94,14 +88,14 @@ const Register = () => {
             <input
               type="email"
               placeholder="Email address"
-              className="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring focus:outline-none focus:ring-blue-300 focus:ring-opacity-40"
+              className="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11 focus:border-blue-400 focus:ring focus:outline-none focus:ring-blue-300 focus:ring-opacity-40"
             />
           </div>
 
           <div className="relative flex items-center mt-4">
             <span className="absolute">
               <svg
-                className="w-6 h-6 mx-3 text-gray-300 dark:text-gray-500"
+                className="w-6 h-6 mx-3 text-gray-300"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -118,14 +112,14 @@ const Register = () => {
             <input
               type="password"
               placeholder="Password"
-              className="block w-full px-10 py-3 text-gray-700 bg-white border rounded-lg dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring focus:outline-none focus:ring-blue-300 focus:ring-opacity-40"
+              className="block w-full px-10 py-3 text-gray-700 bg-white border rounded-lg focus:border-blue-400 focus:ring focus:outline-none focus:ring-blue-300 focus:ring-opacity-40"
             />
           </div>
 
           <div className="relative flex items-center mt-4">
             <span className="absolute">
               <svg
-                className="w-6 h-6 mx-3 text-gray-300 dark:text-gray-500"
+                className="w-6 h-6 mx-3 text-gray-300"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -142,7 +136,7 @@ const Register = () => {
             <input
               type="password"
               placeholder="Confirm Password"
-              className="block w-full px-10 py-3 text-gray-700 bg-white border rounded-lg dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring focus:outline-none focus:ring-blue-300 focus:ring-opacity-40"
+              className="block w-full px-10 py-3 text-gray-700 bg-white border rounded-lg focus:border-blue-400 focus:ring focus:outline-none focus:ring-blue-300 focus:ring-opacity-40"
             />
           </div>
 
@@ -157,7 +151,7 @@ const Register = () => {
             <div className="mt-6 text-center">
               <a
                 href="/login"
-                className="text-sm text-blue-500 hover:underline dark:text-blue-400"
+                className="text-sm text-blue-500 hover:underline"
               >
                 Already have an account?
               </a>

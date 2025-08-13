@@ -13,7 +13,7 @@ const TestiCard = ({ story }) => {
     >
       <div className="-mt-16 flex justify-start">
         <img
-          className="object-cover w-24 h-24 border-2 "
+          className="object-cover w-24 h-24 "
           alt="Testimonial avatar"
           src={image}
         />

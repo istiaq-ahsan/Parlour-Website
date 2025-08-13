@@ -4,34 +4,34 @@
       "title": "Anti Age Face Treatment",
       "price": 199,
       "description": "We craft stunning and amazing web UI, using a well drafted UX to fit your product.",
-      "image": "/images/anti_age_face_treatment.png"
+      "image": "https://i.ibb.co.com/xSpxNh4r/Group-1372.png"
     },
     {
       "id": 2,
       "title": "Hair Color & Styleing",
       "price": 99,
       "description": "Amazing flyers, social media posts and brand representations that would make your brand stand out.",
-      "image": "/images/hair_color_styleing.png"
+      "image": "https://i.ibb.co.com/6CqnFB4/Group-1374.png"
     },
     {
       "id": 3,
       "title": "Skin Care Treatment",
       "price": 299,
       "description": "With well written codes, we build amazing apps for all platforms, mobile and web apps in general.",
-      "image": "/images/skin_care_treatment.png"
+      "image": "https://i.ibb.co.com/xSpxNh4r/Group-1372.png"
     },
     {
       "id": 4,
       "title": "Bridal Makeup Package",
       "price": 499,
       "description": "Get the perfect bridal look with our exclusive makeup package customized to your skin tone and style.",
-      "image": "/images/bridal_makeup_package.png"
+      "image": "https://i.ibb.co.com/6CqnFB4/Group-1374.png"
     },
     {
       "id": 5,
       "title": "Manicure & Pedicure",
       "price": 79,
       "description": "Pamper yourself with our luxurious manicure and pedicure service for healthy, beautiful nails.",
-      "image": "/images/manicure_pedicure.png"
+      "image": "https://i.ibb.co.com/CkbDnN9/Group-1373.png"
     }
   ]
