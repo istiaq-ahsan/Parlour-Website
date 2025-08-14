@@ -1,24 +1,54 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import UseAuth from "../../components/hooks/UseAuth";
+import { toast } from "react-toastify";
+import UseAxiosPublic from "../../hooks/useAxiosPublic";
+import LoadingSpinner from "../../components/LoadingSpinner";
 
 const Login = () => {
-  const { signInWithGoogle } = UseAuth();
+  const { signInWithGoogle, signIn, user, loading } = UseAuth();
+  const navigate = useNavigate();
+  const location = useLocation();
+  const axiosPublic = UseAxiosPublic();
+  const from = location?.state?.from?.pathname || "/";
+  if (user) return <Navigate to={from} replace={true} />;
+  if (loading) return <LoadingSpinner />;
+
+
+  const handleLogin = async (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const email = form.email.value;
+    const password = form.password.value;
+
+    try {
+      //User Login
+      await signIn(email, password);
+
+      navigate(from, { replace: true });
+      toast.success("Login Successful");
+    } catch (err) {
+      console.log(err);
+      toast.error(err?.message);
+    }
+  };
+
   return (
     <div className="py-14 px-2">
       <div className="w-full max-w-sm p-6 m-auto bg-white rounded-lg shadow-md border border-gray-300">
         
 
-        <form className="mt-6">
+        <form onSubmit={handleLogin} className="mt-6">
           <div>
             <label
               htmlFor="username"
               className="block text-sm text-gray-800"
             >
-              Username
+              Email 
             </label>
-            <input
-              type="text"
-              id="username"
+            
+            <input 
+              type="email"
+              id="email"
               className="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border rounded-lg focus:border-blue-400 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
